@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="dark-mode">
+        <input type="checkbox" class="checkbox" id="check">
+        <label class="label" for="check">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <div class="container">
+        <h2>WEATHER</h2>
+        <div class="weather-card">
+            <div class="card" id="istanbul">
+                <img src="img/cload.svg">
+                <div class="degree">17°C</div>
+                <div class="content">
+                    <div class="content-wind">
+                        <i class="fas fa-wind"></i>
+                        <span>2m/s</span>
+                    </div>
+                    <div class="content-clouds">
+                        <i class="fas fa-tint"></i>
+                        <span>80 %</span>
+                    </div>
+                </div>
+                <div class="city">İstanbul,TR</div>
+            </div>
+            <img class="loading" src="img/loader_cms.gif" alt="">
+            <div class="card" id="cityResult">
+
+            </div>
+            <div class="card" id="ankara">
+                <img src="img/cload.svg">
+                <div class="degree">15°C</div>
+                <div class="content">
+                    <div class="content-wind">
+                        <i class="fas fa-wind"></i>
+                        <span>7m/s</span>
+                    </div>
+                    <div class="content-clouds">
+                        <i class="fas fa-tint"></i>
+                        <span>30 %</span>
+                    </div>
+                </div>
+                <div class="city">Ankara,TR</div>
+            </div>
+        </div>
+        <div class="weather-input">
+            <div class="alert"></div>
+            <input type="text" placeholder="Enter the city..." class="inputCity">
+            <input type="submit" value="Search" class="btnSearch">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
