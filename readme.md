@@ -11,4 +11,8 @@ What can you do in this project?
 </ul> <br/>
 
 ### `Check out Weather App`
-You can run demo weather forecast app. [Show Project]().
+You can run demo weather forecast app. [Show Project](https://competent-ptolemy-d418a3.netlify.app/).
+
+## View of the project
+![View](https://github.com/codepumps/weather-app-with-JS/blob/master/img/visual-1.png)
+![View](https://github.com/codepumps/weather-app-with-JS/blob/master/img/visual-2.png)
